@@ -12,6 +12,14 @@ header {
     color: white;
     padding: 10px 0;
     text-align: center;
+    background-image: url('images/car-background.jpg'); /* Image de voiture */
+    background-size: cover;
+    background-position: center;
+}
+
+header .header-content {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 header nav ul {
@@ -31,6 +39,7 @@ header nav ul li a {
 
 main {
     padding: 20px;
+    text-align: center;
 }
 
 footer {
